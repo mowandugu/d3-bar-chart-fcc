@@ -1,0 +1,46 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #F0D3F7;
+}
+svg{
+    background-color: #B98EA7;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+svg:hover{
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.bar{
+    background-color: #302F4D;
+    border-color: #302F4D;
+    fill: #302F4D;
+}
+.bar:hover{
+    fill: #A57982;
+}
+g{
+    color: #302F4D;
+}
+#tooltip{
+    margin-top: 10px;
+    color: #302F4D;
+    font-size: 24px;
+}
+#title{
+    font-size: 30px;
+    fill: #f6f7f8;
+    text-align: center;
+}
